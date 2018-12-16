@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:id="@+id/poster_imageView"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="영화제목"
+            />
+        <RatingBar
+            android:id="@+id/movie_ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"/>
+        <TextView
+            android:id="@+id/year_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017"/>
+        <TextView
+            android:id="@+id/director_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="감독"/>
+        <TextView
+            android:id="@+id/actor_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="주연배우"/>
+
+    </LinearLayout>
+</LinearLayout>
